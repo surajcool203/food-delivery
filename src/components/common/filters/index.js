@@ -1,11 +1,14 @@
 import React from 'react'
+import FilterItem from './filterItem';
 import "./filters.css"
 
 const Filters = ({filterList}) => {
   return (
-  <div>
+  <div className='filters'>
       {filterList && filterList.map((filter)=>{
-          return<div>{filter.title}</div>;
+          return <FilterItem filter= {
+            filter}key={filter.id}
+            />;
         })}
     </div>
   );
