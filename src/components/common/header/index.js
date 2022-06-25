@@ -29,7 +29,7 @@ const Header = () => {
                   alt='profile'
                   className='header-profile-image'
                   />
-                  <span className='header-username'>Aastha</span>
+                  <span className='header-username'>Suraj</span>
                   <i className="fi fi-rr-angle-small-down absolute-center profile-option-icon "></i>
               </div>
         </div>
@@ -37,4 +37,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

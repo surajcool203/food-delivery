@@ -24,26 +24,13 @@ import DeliveryItem from './deliveryItem';
     title:"Rolls",
     cover:"https://b.zmtcdn.com/data/o2_assets/e61347d2b01cfae669530bd4b8e778e41632716577.png",
  },
- {
-    id:4,
-    title:"Cake",
-    cover:"https://b.zmtcdn.com/data/02_assets/9694b563c793ea7bddf49f619dd4b7751632716697.png",
- },
+
   {
     id:5,
     title:"Biryani",
     cover:"https://b.zmtcdn.com/data/o2_assets/7e83ad932f340bacd71bd7e891ede6541632716696.png",
  },
- {
-    id:6,
-    title:"Chaat",
-    cover:"https://b.zmtcdn.com/data/o2_assets/3d902eb4bb267efea010ade87bcb1f3f1632716698.png",
- },
- {
-    id:7,
-    title:"Momos",
-    cover:"https://b.zmtcdn.com/data/02_assets/5dbdb72a48cf3192830232f6853735301632716604.png",
-},
+
 { 
     id:8,
     title:"Paneer",
@@ -59,14 +46,13 @@ import DeliveryItem from './deliveryItem';
     title:"Paratha",
     cover:"https://b.zmtcdn.com/data/dish_images/49a62bf16f88e7d22994e387626292161632717505.png",
 },
-]
+];
  
 const settings = {
   infinite: false,
-  speed: 100,
   slidesToShow: 4,
-  slidesToScroll: 1,  
-  nextArrow: <NextArrow/>,
+  slidesToScroll: 1,    
+  NextArrow: <NextArrow/>,
   PrevArrow: <PrevArrow/>, 
 };
 
@@ -86,4 +72,4 @@ const DeliveryCollection = () => {
   )
 }
 
-export default DeliveryCollection
+export default DeliveryCollection;

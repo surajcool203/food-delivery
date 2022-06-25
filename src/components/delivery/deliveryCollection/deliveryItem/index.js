@@ -1,10 +1,9 @@
 import React from 'react';
 import "./deliveryItem.css";
 
-const DeliveryItem
-  = (item) => {
+const DeliveryItem = ({item}) => {
   return (
-    <div>
+   <div>
          <div className='delivery-item-cover'>
             <img 
                 src={item.cover} 
@@ -13,7 +12,7 @@ const DeliveryItem
              />
         </div>
         <div className='delivery-item-title'>{item.title}</div>
-     </div>
+   </div>
   )
 }
 

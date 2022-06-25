@@ -12,7 +12,7 @@ const NextArrow = (props) => {
       alignItems:"center",
       padding:"4px"
     }}
-    onclick={onClick}
+    onclick={onClick} 
     >
     </div>
   )
